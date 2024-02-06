@@ -2,6 +2,7 @@ import './App.css';
 import SayMyName from './components/SayMyName.jsx';
 import Pessoa from './components/Pessoa.jsx';
 import Frase from './components/Frase.jsx';
+import List from './components/List.jsx';
 
 function App() {
   const nome = "Gatinha"
@@ -18,6 +19,7 @@ function App() {
         profissao="Programador"
         foto="https://via.placeholder.com/150"
       />
+      <List/>
     </div>
   );
 }
